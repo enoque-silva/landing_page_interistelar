@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Disney+</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__logo">
+                <!-- <img class="header__logo" src="./dist/images/logo.png" alt="disney+"> -->
+                    INTERSTELLAR
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secundary">Assista agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Assine</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero__content">
+            <!-- <div class="hero__content__branding">
+                <img src="./dist/images/logo.png" alt="disney+">
+            </div> -->
+            <h3 class="title--big">
+                INTERSTELLAR
+            </h3>
+            <p class="text--small">
+                por Christopher Nolan
+            </p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="cenas" class="shows__tabs__button shows__tabs__button--is-active">Cenas</button>
+            <button data-tab-button="alguns_atores" class="shows__tabs__button ">Alguns atores</button>
+        </nav>
+        <ul data-tab-id="cenas" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/cenas/cena1.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/cenas/cena2.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/cenas/cena3.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/cenas/cena4.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/cenas/cena5.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/cenas/cena6.png" alt="">
+            </li>
+        </ul>
+        <ul data-tab-id="alguns_atores" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/atores/Matthew McConaughey.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/atores/Jessica Chastain.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/atores/Anne Hathaway.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/atores/Timothée Chalamet.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/atores/Mackenzie Foy.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/atores/Matt Damon.png" alt="">
+            </li>
+        </ul>
+        
+    </section>
+    <section class="plans">
+        <h2 class="title"> Disponível em:</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <img src="dist/images/logos/primevideo_logo.png" alt="Disney+">
+                <strong class="title--small">R$ 27,90/mês*</strong>
+                <p class="text--big">
+                    Assista Interestelar com qualidade premium no Prime Video. Disponível para membros Prime ou para aluguel digital.
+                </p>
+                <button class="button">Assine agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="dist/images/logos/appletv_logo.png" alt="Disney+">
+                <strong class="title--small">R$ 45,90/mês*</strong>
+                <p class="text--big">
+                    Curta Interestelar em alta definição na Apple TV. Compre ou alugue e assista quando quiser, em qualquer dispositivo Apple.
+                </p>
+                <button class="button">Assine agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="dist/images/logos/max_logo.png" alt="Disney+">
+                <strong class="title--small">R$ 55,90/mês*</strong>
+                <p class="text--big">
+                    Explore os mistérios do espaço com Interestelar no Max. Incluído na assinatura, pronto para maratonar agora mesmo.
+                </p>
+                <button class="button">Assine agora</button>
+            </li>
+        </ul>
+        <p class="text--small">
+            *O preço pode variar caso a assinatura seja feita através de outras plataformas.
+        </p>
+    </section>
+    <section class="image-text-section">
+        <!-- <img src="./dist/images/tv_pc_tablet_celular.png" alt="imagem com tv, computador tablet e celular"> -->
+        <div class="video-youtube">
+            <iframe 
+              src="https://www.youtube.com/embed/nyc6RJEEe0U?si=tRnk4greCwBlXPWA" 
+              title="Interestelar Trailer"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;">
+            </iframe>
+          </div>          
+        <div class="image-text-section__text_container">
+            <h2 class="title">Assista ao Trailer Oficial</h2>
+            <p class="text--big">
+                Viaje além das estrelas com o trailer de Interestelar. Uma prévia emocionante da jornada épica que 
+                desafia o tempo, o espaço e os limites da humanidade. Aperte o play e prepare-se para uma experiência 
+                cinematográfica inesquecível.
+            </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>Pc Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/tv.png" alt="computador">
+                <h4 class="title--small">TV</h4>
+                <ul class="text">
+                    <li>Amazon Fire TV</li>
+                    <li>Android TV</li>
+                    <li>Apple TV</li>
+                    <li>Chromecast</li>
+                    <li>TVs LG</li>
+                    <li>Roku</li>
+                    <li>Samsung</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/videogames.png" alt="computador">
+                <h4 class="title--small">Videogames</h4>
+                <ul class="text">
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>Xbox One</li>
+                    <li>Xbox Series X</li>
+                    <li>Xbox Series S</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/celular.png" alt="computador">
+                <h4 class="title--small">Celulares e tablets</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulares e Tablets Android</li>
+                    <li>iPhone e iPad</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question="true">
+                    Sobre o que é o filme Interestelar?
+                </div>
+                <div class="faq__questions__item__answer text--big ">
+                    <p>O filme acompanha um grupo de astronautas em uma missão para encontrar um novo planeta habitável, 
+                        enquanto a Terra enfrenta uma crise ambiental. A história mistura ficção científica com fortes 
+                        temas emocionais, como amor, tempo e sobrevivência.</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question="true">
+                    Quem são os principais atores do filme?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p>
+                        O elenco principal conta com Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine e Matt Damon.
+                    </p>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question="true">
+                    Quem dirigiu Interestelar?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p>
+                        O filme foi dirigido por Christopher Nolan, conhecido por obras como A Origem e a trilogia O Cavaleiro das Trevas.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/logos/logo.png" alt="Disney+">
+            <ul class="footer__links ">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="globo do mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e condições de uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Dispositivos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                A programação do conteúdo esportivo varia de acordo com o plano. Para usar as plataformas, é necessário ser
+                assinante e ter mais de 18 anos de idade. Conteúdo sujeito a disponibilidade.
+            </p>
+            <p class="text--small">
+                © 2025 Enoque Ribeiro. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./dist/js/mais.js"></script>
+</body>
+
+</html>
